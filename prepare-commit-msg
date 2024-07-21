@@ -1,4 +1,4 @@
 #!/bin/sh
 COMMIT_MSG_FILE=$1
 
-c:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy bypass -Command C:/Users/ryan.kline/githooks/prepare-commit-msg.ps1 -MessagePath $1
+c:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy bypass -Command C:/path/to/git-hooks/prepare-commit-msg.ps1 -MessagePath $1
