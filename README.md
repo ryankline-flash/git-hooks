@@ -2,9 +2,9 @@
 This repo contains custom hooks taliored for development activities at Flash.
 
 ## Setup
-* Modify `prepare-commit-msg` to point to the appropriate file location
 * To use these hooks in all projects, clone this repo in a directory of your choosing, then run:<br>
 `git config --global core.hooksPath "<path/to/this/repo>"`
+* Modify `prepare-commit-msg` to point to the appropriate file location
 * If you only want it in a specific repo or repos, copy these files into your repo's `.git/hooks` directory
 
 ## Usage
